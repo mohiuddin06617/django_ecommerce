@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80509a3f-6e05-497c-83b6-7a9733f62ecf" name="Default Changelist" comment="" />
+    <list default="true" id="80509a3f-6e05-497c-83b6-7a9733f62ecf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce_learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +30,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1RopukGEB84L6MN19lBNRYW7sRb" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../comp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -51,7 +65,7 @@
   </component>
   <component name="RunManager">
     <configuration name="ecommerce_learn" type="Python.DjangoServer" factoryName="Django server">
-      <module name="ecommerce_learn" />
+      <module name="django_ecommerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,10 +100,22 @@
       <updated>1570343527554</updated>
       <workItem from="1570343539597" duration="7278000" />
       <workItem from="1570357272471" duration="23000" />
+      <workItem from="1570390589671" duration="1856000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

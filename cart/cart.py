@@ -8,11 +8,11 @@ class Cart(object):
         self.session = request.session
         cart = self.session.get(settings.CART_SESSION_ID)
         if not cart:
-            cart = self.session[settings.CART_SESSION] = {}
+            cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
 
     def add(self, product, quantity=1, update_quantity=False):
-        product_id = str(product.id)
+        product_id = str(product.id)  # Converting string because Django uses json to serialize session
         if product_id not in self.cart:
             self.cart[product_id] = {'quantity': 0, 'price': str(product.price)}
         if update_quantity:
